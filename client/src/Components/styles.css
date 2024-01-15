@@ -4,16 +4,47 @@
     width: 90vw;
     border-radius: 20px;
     display: flex;
-    gap: 0.1rem;
-    padding: 0.5rem;
 }  
 
 .side-bar{
-    border-radius: 20px;
     flex: 0.3;
+    display: flex;
+    flex-direction: column;
 }
 
 .work-area{
+    background-color: #fff;
     border-radius: 20px;
     flex: 0.7;
+    margin: 10px;
+}
+
+.sb-header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.sb-search{
+    background-color: #fff;
+    padding: 5px 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.search-box{
+    outline-width: 0;
+    border: none;
+    font-size: 1rem;
+}
+
+.sb-conversation{
+    background-color: #fff;
+    padding: 10px 5px;
+    margin: 10px;
+    border-radius: 20px;
+    flex: 1;
 }
